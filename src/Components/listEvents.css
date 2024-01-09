@@ -1,0 +1,142 @@
+.listEvents__container {
+    width: 100%;
+    max-width: 350px;
+    min-height: 400px;
+    background-color: rgb(40, 32, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 2em 1em;
+    gap: 1em;
+    border-radius: 0.5em;
+    color: #ccc;
+}
+
+.listEvents__title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listEvents__title h3 {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.listEvents__title p {
+    font-size: 1.1em;
+    font-weight: 500;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.listEvents__title i {
+    color: orange;
+    font-size: 1.5em;
+}
+
+.listEvents__dataEvents {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.listEvents__dataEvents article {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8em;
+}
+
+.listEvents__dataEvents i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(34, 27, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listEvents__dataOneEvent {
+    width: 100%;
+    background-color: rgb(55, 44, 70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1em;
+    padding: 0.4em 0.6em;
+}
+
+.dataOneEvent__hour {
+    font-size: 0.8em;
+}
+
+.dataOneEvent__peopleButton {
+    display: flex;
+    gap: 1em;
+}
+
+.dataOneEvent__people {
+    height: 22px;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2em;
+    padding: 0 0 0 1em;
+    font-size: 0.7em;
+    font-weight: 500;
+    gap: 0.5em;
+    overflow: hidden;
+}
+
+.dataOneEvent__people i {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.peopleEdit {
+    height: 100% !important;
+    background-color: rgb(255, 145, 0) !important;
+    border-radius: 0 !important;
+    padding-right: 0.5em;
+    padding-left: 0.3em;
+    font-size: 1.3em;
+
+}
+
+.listEvents__dataOneEvent button {
+    background-color: rgb(255, 145, 0);
+    padding: 0.5em 1em;
+    font-size: 0.6em;
+    font-weight: 600;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.listEvents__addEvent {
+    width: 100%;
+    padding: 1em;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    color: #ccc;
+    font-size: 0.7em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease
+}
+
+.listEvents__addEvent:hover {
+    background-color: rgb(55, 44, 70);
+    transition: 0.3s ease
+}

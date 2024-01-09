@@ -1,0 +1,121 @@
+{
+  "calendarData": [
+    {
+      "id": "24-En-2024",
+      "Presencial": [
+        {
+          "id": "1",
+          "mode": "Presencial",
+          "numberPeople": "3",
+          "hour": "3",
+          "minute": "15",
+          "extraHour": "am"
+        },
+        {
+          "id": "2",
+          "mode": "Presencial",
+          "numberPeople": "3",
+          "hour": "4",
+          "minute": "15",
+          "extraHour": "am"
+        }
+      ],
+      "Pickup": [
+        {
+          "id": "3",
+          "mode": "Pickup",
+          "numberPeople": "3",
+          "hour": "5",
+          "minute": "10",
+          "extraHour": "am"
+        },
+        {
+          "id": "4",
+          "mode": "Pickup",
+          "numberPeople": "1",
+          "hour": "9",
+          "minute": "15",
+          "extraHour": "am"
+        }
+      ]
+    },
+    {
+      "id": "25-En-2024",
+      "Presencial": [
+        {
+          "id": "5",
+          "mode": "Presencial",
+          "numberPeople": "3",
+          "hour": "11",
+          "minute": "15",
+          "extraHour": "am"
+        },
+        {
+          "id": "6",
+          "mode": "Presencial",
+          "numberPeople": "4",
+          "hour": "10",
+          "minute": "15",
+          "extraHour": "am"
+        }
+      ],
+      "Pickup": [
+        {
+          "id": "7",
+          "mode": "Pickup",
+          "numberPeople": "2",
+          "hour": "6",
+          "minute": "15",
+          "extraHour": "am"
+        },
+        {
+          "id": "8",
+          "mode": "Pickup",
+          "numberPeople": "2",
+          "hour": "8",
+          "minute": "15",
+          "extraHour": "am"
+        }
+      ]
+    },
+    {
+      "id": "8-En-2024",
+      "Presencial": [
+        {
+          "id": "9",
+          "mode": "Presencial",
+          "numberPeople": "1",
+          "hour": "3",
+          "minute": "15",
+          "extraHour": "pm"
+        },
+        {
+          "id": "10",
+          "mode": "Presencial",
+          "numberPeople": "3",
+          "hour": "4",
+          "minute": "15",
+          "extraHour": "am"
+        }
+      ],
+      "Pickup": [
+        {
+          "id": "11",
+          "mode": "Pickup",
+          "numberPeople": "2",
+          "hour": "4",
+          "minute": "15",
+          "extraHour": "am"
+        },
+        {
+          "id": "12",
+          "mode": "Pickup",
+          "numberPeople": "2",
+          "hour": "4",
+          "minute": "15",
+          "extraHour": "am"
+        }
+      ]
+    }
+  ]
+}

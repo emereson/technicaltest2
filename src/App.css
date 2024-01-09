@@ -1,0 +1,25 @@
+.app__contaier {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: start;
+  align-items: center;
+  padding: 1em;
+  background-color: rgb(25, 25, 39);
+  overflow-y: auto;
+}
+
+.app__contaier h1 {
+  color: white;
+}
+
+.pageCalendar__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 2em;
+}

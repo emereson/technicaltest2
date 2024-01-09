@@ -1,0 +1,95 @@
+.day {
+    min-width: 35px;
+    position: relative;
+    height: 75px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(34, 27, 43);
+    border-radius: 0.5em;
+    color: #c5c5c5;
+    cursor: pointer;
+}
+
+.day:hover {
+    background-color: rgb(55, 44, 70);
+}
+
+.existDataDay {
+    background-color: rgb(55, 44, 70);
+}
+
+.numberDay {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;
+
+}
+
+
+.dayDatas__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+}
+
+.dayDatas__container div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.dayDatas__container p {
+    font-size: 10px;
+}
+
+.dayDatas__container i {
+    font-size: 10px;
+    color: rgba(255, 166, 0, 0.599);
+
+}
+
+.dayDatas__container span {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(34, 27, 43);
+    font-size: 10px;
+}
+
+@media(max-width:500px) {
+    .dayDatas__container div {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .dayDatas__container p {
+        font-size: 1.5vw;
+    }
+
+    .dayDatas__container i {
+        font-size: 1.5vw;
+
+    }
+
+    .dayDatas__container span {
+        width: 10px;
+        height: 10px;
+        font-size: 1.5vw;
+    }
+}

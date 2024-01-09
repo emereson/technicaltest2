@@ -1,0 +1,99 @@
+.calendar-container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.calendar__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.calendar__headerName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.calendar__headerName i {
+    color: rgb(255, 145, 10);
+    font-size: 2em;
+}
+
+.calendar__headerName h2 {
+    color: rgb(255, 230, 216);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.calendar__headerButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+    color: rgb(255, 145, 10);
+    font-weight: 200;
+}
+
+.calendar__headerButtons h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.calendar__headerButtons button {
+    background-color: transparent;
+    color: rgb(255, 145, 10);
+    font-size: 1em;
+    margin-bottom: -0.2em;
+    cursor: pointer;
+}
+
+.days-of-week__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(40, 32, 50);
+    color: white;
+    font-weight: bold;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    padding-bottom: 1em;
+
+}
+
+.days-of-week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 32, 50);
+    color: white;
+    padding: 0.5em 0;
+    font-weight: bold;
+}
+
+.days-of-week span {
+    width: calc(100%/7);
+    font-weight: 400;
+    font-size: 0.8em;
+    padding-left: 1em;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5em;
+}
+
+
+@media(max-width:500px) {
+    .days-of-week span {
+        font-size: 2.5vw;
+        padding-left: 5px;
+    }
+}
